@@ -1,0 +1,257 @@
+go1
+go1=colnames(mat.result.GO)[pos1]
+go1
+go2=colnames(mat.result.GO)[pos2]
+go2
+pos2
+?cat
+cat("GO:",go1)
+cat("GO:",go1[1])
+lapply(go1, function(x) cat("GO:",x))
+sapply(go1, function(x) cat("GO:",x))
+go1
+typeof(go1)
+paste("GO:",go1)
+paste("GO:",go1, sep="")
+go1=paste("GO:",go1, sep="")
+go1
+mgoSim(go1,go2,semData=AthGO, measure="Wang", combine=NULL)
+go2=paste("GO:",go2, sep="")
+mgoSim(go1,go2,semData=AthGO, measure="Wang", combine=NULL)
+go1
+go2
+mgoSim(go1,go2,semData=AthGO, measure="Wang", combine="BMA")
+?combn
+combn(nrow(mat.result.GO),2)
+rowComb=combn(nrow(mat.result.GO),2)
+rowComb
+rownames(mat.result.GO)
+AthGO
+geneSim(rownames(mat.result.GO)[1],rownames(mat.result.GO)[2])
+geneSim(rownames(mat.result.GO)[1],rownames(mat.result.GO)[2],semData=AthGO)
+rownames(mat.result.GO)[1]
+slotNames(mat.result.GO)
+names(mat.result.GO)
+rownames(mat.result.GO)
+rownames(AthGO)
+names(AthGO)
+ls()
+version
+library(updateR)
+updateR()
+updateR(admin_password="")
+install.packages("bigmemory")
+library(bigmemory)
+=colAUC
+?colAUC
+colAUC
+?colAUC
+library(MASS)
+data(cats)
+cats
+head(cats)
+colAUC(cats[,2:3], cats[,1], plotROC=TRUE)
+library(univar)
+library(caTools)
+colAUC(cats[,2:3], cats[,1], plotROC=TRUE)
+require(stats)#
+x <- matrix(1:10, ncol = 2)
+x
+(centered.x <- scale(x, scale = FALSE))
+centered.x
+K=matrix()
+?matrix
+K=matrix(data=c())
+?matrix
+K=matrix(data=c(2,3,1, 1,4,2, 5,1,3))
+K=matrix(data=c(2,3,1, 1,4,2, 5,1,3), ncol=3, nrow=3)
+K
+K- (1/nrow(K))*(K*ones())
+p=nrow(K)
+p
+K- (1/p)*(K*ones(p,1))*ones(1,p)
++rep
+?rep
+K- (1/p)*(K*rep(p,1))*ones(1,p)
+rep(1,p)
+t(rep(1,p))
+K- (1/p)*(K*t(rep(1,p)))*ones(1,p)
+t(rep(1,p))
+K*t(rep(1,p))
+matrix(c(1,1,1),nrow=3)
+?rep
+K*matrix(c(1,1,1),nrow=3)
+K
+matrix(c(1,1,1),nrow=3)
+K %*% matrix(c(1,1,1),nrow=3)
+K %*% t(rep(1,p))
+K %*% matrix(rep(1,p),nrow=3)
+K - (1/p)* (K %*% matrix(rep(1,p),nrow=3)) %*% (rep(1,p))
+K - (1/p)* ()(K %*% matrix(rep(1,p),nrow=3)) %*% (rep(1,p)))
+K - (1/p)* ((K %*% matrix(rep(1,p),nrow=3)) %*% (rep(1,p)))
+K
+centeredKernelMatrix = function(K) {#
+	return (K - (1/p)* (K %*% matrix(rep(1,p),nrow=3)) %*% (rep(1,p)))#
+}
+p^2
+centeredKernelMatrix = function(K) {#
+	return (K - (1/p)* (K %*% matrix(rep(1,p),nrow=3)) %*% (rep(1,p))) - (1/p)*(matrix(rep(1,p),nrow=3) %*% (rep(1,p) %*% K)) + (1/p^2)*(sum(sum(K)))#
+}
+K
+Kcent= centeredKernelMatrix(K)
+Kcent
+sum(sum(K))
+centeredKernelMatrix = function(K) {#
+	return (K - (1/p)* (K %*% matrix(rep(1,p),nrow=3)) %*% (rep(1,p)) - (1/p)*(matrix(rep(1,p),nrow=3)) %*% (rep(1,p) %*% K) + (1/p^2)*(sum(sum(K)))  ) #
+}
+Kcent
+Kcent=centeredKernelMatrix(K)
+Kcent
+library(math)
+library(matrixcalc)
+install.packages("matrixcalc")
+library(matrixcalc)
+is.positive.definite(Kcent)
+Kcent
+??is.positive.definite
+?is.positive.definite
+E <- matrix( c( 1, 2, 0, 2, 1, 2, 0, 2, 1 ), nrow=3, byrow=TRUE )
+E
+Kcent
+K
+7/3
+sum(sum(K))
+22/9
+(1/p)* (K %*% matrix(rep(1,p),nrow=3)) %*% (rep(1,p))
+K
+8/3
+8(1/p)*(matrix(rep(1,p),nrow=3))
+(1/p)*(matrix(rep(1,p),nrow=3))
+K
+(1/p)*(matrix(rep(1,p),nrow=3)) %*% (rep(1,p) %*% K)
+7/3
+8/3
+Kcent
+tpm
+source("/Users/ilievska/Documents/PromoterAnalysis/functions/motifCountMatrix.R")
+source("/Users/ilievska/Documents/PromoterAnalysis/functions/*")
+source("/Users/ilievska/Documents/PromoterAnalysis/functions/computeEnrichments.R")
+source("/Users/ilievska/Documents/PromoterAnalysis/functions/computePairwiseEnrichments.R")
+source("/Users/ilievska/Documents/PromoterAnalysis/functions/joinPromoterDB.R")
+source("/Users/ilievska/Documents/PromoterAnalysis/functions/makePromoterDBfromFimo.R")
+source("/Users/ilievska/Documents/PromoterAnalysis/functions/makePromoterDBfromRE.R")
+load("/Users/ilievska/Documents/PromoterAnalysis/PromoterAnalysis/AGRIS_PLACE_motifs_short_mb2.txt")
+getwd()
+setwd("Documents/PromoterAnalysis/")
+package.skeleton(name="TFbindR")
+ls()
+library(quantmod)
+library(xts)
+library(roxygen2)
+require("devtools")
+library("roxygen2")
+require("roxygen2")
+library(devtools)
+library(roxygen2)
+install.packages("roxygen2")
+library(roxygen2)
+ls()
+getwd()
+setwd("TFbindR/man/")
+library(roxygen2)
+my.pacakge=as.package("TFbindR")
+??as.package
+?as.package
+getwd()
+load_all("TFbindR-package.Rd")
+my.package=as.package("TFbindR-package.Rd")
+my.package=as.package("../../TFbindR/")
+my.package
+load_all(my.package)
+?load_all
+load_all(path="../../TFbindR/")
+warnings()
+load_all(path="../../TFbindR/")
+load_all(path="../../TFbindR/")
+load_all(path="../../TFbindR/")
+load_all(path="../../TFbindR/")
+warnings()
+load_all(path="../../TFbindR/")
+ls()
+load_all(path="../../TFbindR/")
+load_all(path="../../TFbindR/")
+?document
+document(my.package)
+load_all(path="../../TFbindR/")
+load_all(path="../../TFbindR/")
+warnings()
+load_all(path="../../TFbindR/")
+document(my.package)
+devtools::document()
+warnings()
+warnings()
+load_all(path="../../TFbindR/")
+document(my.package)
+?build
+?build
+getwd()
+setwd("../../")
+getwd()
+build(my.package)
+setwd("TFbindR/man/")
+build(my.package)
+path
+info
+info$uid
+library("TFbindR")
+ls()
+rm(list=ls())
+ls()
+library("TFbindR")
+ls()
+?makePromoterDBfromFimo
+install.packages("formatR")
+library(formatR)
+?formatR::tidy_dir
+getwd()
+formatR::tidy_dir("../R")
+load_all(path="../../TFbindR/")
+document(path="../../TFbindR/")
+rm(list=ls())
+my.package=as.package("../../TFbindR/")
+document(my.package)
+build(my.package)
+library(TFbindR)
+?makePromoterDBfromFimo
+ls()
+parent.frame()
+rm(list=ls())
+document(path="../../TFbindR/")
+getwd()
+document(path="../TFbindR/")
+ls()
+?document
+document(pkg="../../TFbindR/")
+library(TFbindR)
+getwd()
+ls()
+read.csv("cistrome.fimo.txt")
+data("cistrome.fimo.txt")
+data("cistrome.fimo")
+ls()
+cistrome.fimo
+rm(list=ls())
+library(TFbindR)
+system.file("")
+system.file("TFbind")
+system.file("TFbindR")
+list.files("/Library/Frameworks/R.framework/Resources/library/base/")
+list.files("/Library/Frameworks/R.framework/Resources/library/base/R")
+system.file("extdata","cistrome.fimo.txt")
+system.file("extdata","cistrome.fimo.txt",package="TFbindR")
+library(TFbindR)
+system.file("extdata","cistrome.fimo.txt",package="TFbindR")
+system.file("extdata","TAIR10_upstream_1000_translation_start_20101028.fa",package="TFbindR")
+?read.delim
+library(TFbindR)
+?makePromoterDBfromFimo

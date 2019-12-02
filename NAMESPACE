@@ -1,0 +1,6 @@
+# Exporting enrichment functions
+export(computeEnrichments, computePairwiseEnrichments, motifCountMatrix)
+
+
+# Exporting promoterDB functions
+export(joinPromoterDB, makePromoterDBfromRE, makePromoterDBfromFimo)

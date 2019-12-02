@@ -1,0 +1,17 @@
+Package: TFbindR
+Type: Package
+Title: Identification and Counting of the Occurence of Motifs in a Set of Promoter Sequences. Motif Enrichment Analysis 
+Version: 1.0
+Date: 2019-04-03
+Authors@R: c(person("Maja", "Ilievska", email="maja.ilievska@helsinki.fi", role=c("aut","cre")),
+    person("Omid", "Safronov", email="omid.safronov@helsinki.fi", role="aut"),
+    person("Jarkko", "Salojarvi", email="jarkko.salojarvi@helsinki.fi", role="aut"))
+Maintainer: Maja Ilievska <maja.ilievska@helsinki.fi>
+Description: Building a database of transcription factor binding sites (TFBS) in the gene promoter regions, and motif enrichment analysis. The database is constructed based on fimo files or a list of regular expressions representing the binding motifs of the transcription factors of interest, and the promoter sequences in FASTA file format. The motifs are identified and their count is reported in a matrix with dimension of the motifs and promoter sequences. The occurence is identified for both, the sense and antisense strands. The enrichment analysis performs a fisher test for identification of enriched motifs in a set of genes of interest. 
+License: GPL-3
+Imports: 
+    seqinr
+Depends: R (>= 3.5.0)
+RoxygenNote: 6.1.1	
+Encoding: UTF-8
+LazyData: true
