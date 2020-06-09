@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 #' Count the Occurrence of Sequence Motifs from Fimo File.
-=======
-#' Count the Occurence of Sequence Motifs from Fimo File.
->>>>>>> 18f3fa7f5e634e375f31b36ba2bad8daec846873
 #' 
 #' The function reads the input sequences from a FASTA file and identifies the
 #' genes. Next, it splits the strands from the FIMO file into "+" and "-", and
@@ -29,7 +25,7 @@
 #' @examples
 #' 
 #' # Read a sample fimo file. The data is downloaded from the Arabidopsis Cistrome database.
-#' fimo.dir = system.file("extdata", "cistrome.fimo.txt", package="TFbindR", mustWork = TRUE)
+#' fimo.dir = system.file("extdata", "fimo_cistrome_jaspar.tsv", package="TFbindR", mustWork = TRUE)
 #' 
 #' # Read a sample fasta file. 
 #' promoter.dir = system.file("extdata","TAIR10_upstream_1000_translation_start_20101028.fa",package="TFbindR")
