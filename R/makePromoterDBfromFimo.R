@@ -1,4 +1,4 @@
-#' Count the Occurence of Sequence Motifs from Fimo File.
+#' Count the Occurrence of Sequence Motifs from Fimo File.
 #' 
 #' The function reads the input sequences from a FASTA file and identifies the
 #' genes. Next, it splits the strands from the FIMO file into "+" and "-", and
