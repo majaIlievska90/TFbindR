@@ -61,10 +61,10 @@ The result will be saved in the ```TAIR10_500bp_upstream.RE.db.rda``` object con
 
 **Enrichment**
 
-From here, you can run the enrichment function. Example bellow for the RE version.  Here, you will use your genes of interest. 
+From here, you can run the enrichment function. Example bellow for the RE version.  Here, you will use a text file with the gene IDs separated by new line, without header. 
 
 ```
-genes=read.table("path_to_your_genes/file_name")
+genes=read.table("path_to_your_file/file_name")
 enrichment=computeEnrichments(as.character(genes), "TAIR10_500bp_upstream.fimo.db.rda")
 ```
 
