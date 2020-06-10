@@ -6,7 +6,7 @@ Counting the occurence of transcription factor binding motifs in a set of provid
 
 ```
 library(devtools)
-install_github("https://github.com/majaIlievska90/TFbindR”)
+install_github("https://github.com/majaIlievska90/TFbindR")
 library(TFbindR)
 ```
 
