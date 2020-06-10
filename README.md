@@ -54,7 +54,7 @@ motifs.dir = system.file("extdata", "REcomplete.txt", package="TFbindR", mustWor
 Motif.df=read.delim(file = motifs.dir ,header=TRUE, sep="\t", as.is=T)
 promoter.dir = system.file("extdata","TAIR10_upstream_1000_translation_start_20101028.fa",package="TFbindR")
 
-makePromoterDBfromRE(Motifs = Motif.df,promoter.fasta = promoter.dir, promoterDB=file.path(output.dir,"TAIR10_500bp_upstream.RE.db.rda"))
+makePromoterDBfromRE(Motif.df = Motif.df,promoter.fasta = promoter.dir, promoterDB=file.path(output.dir,"TAIR10_500bp_upstream.RE.db.rda"))
 ```
 
 The result will be saved in the ```TAIR10_500bp_upstream.RE.db.rda``` object containing the frequency of the moitfs in each promoter sequence. 
