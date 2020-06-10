@@ -1,0 +1,683 @@
+Motifs	names
+1	AAAAAAAATCTATGA	CCA1 motif2 BS in CAB1
+2	AAACAATCTA	CCA1 motif1 BS in CAB1
+3	CGTCAATGAA	JASE1 motif in OPR1
+4	CATACGTCGTCAA	JASE2 motif in OPR1
+5	TTTCCCGC	E2F/DP BS in AtCDC6
+6	TAATTGACTCAATTA	PRHA BS in PAL1
+7	TGGCCGAC	CBF1 BS in cor15a
+8	ATCTTATGTCATTGATGACGACCTCC	OBF4-5 BS in GST6
+9	TACACTTTTGG	OBP-1-4-5 BS in GST6
+10	GCCGCC	ERF1 BS in AtCHI-B
+11	CCATTTTTGG	AG BS in SUP
+12	TTCAAGGGGGCATGTATCTTGAA	EIL1 BS in ERF1
+13	GGATTCAAGGGGGCATGTATCTTGAATCC	EIN3 BS in ERF1
+14	CCATTTTTAGT	AG BS in AP3
+15	CCATTTTTAG	AP1 BS in AP3
+16	GTTTACATAAATGGAAAA	CArG1 motif in AP3
+17	CTTACCTTTCATGGATTA	CArG2 motif in AP3
+18	CTTTCCATTTTTAGTAAC	CArG3 motif in AP3
+19	cttaaaccctaggggtaat	LFY BS in AP3
+20	TCTAACCTACCA	MRE motif in CHS
+21	CTAACCA	AtMYB2 BS in RD22
+22	CACATG	AtMYC2 BS in RD22
+23	TACCGACAT	DREB1&2 BS in rd29a
+24	CARG	AGL15 BS in AtGA2ox6
+25	CArG	AG BS in SPL/NOZ
+26	cacatg	AtMYC2 BS in RD22
+27	aaacaatcta	CCA1 motif1 BS in CAB1
+28	aaattaaa	Bellringer/replumless/pennywise BS1 IN AG
+29	aaattagt	Bellringer/replumless/pennywise BS2 IN AG
+30	actaattt	Bellringer/replumless/pennywise BS3 IN AG
+31	actcat	ATB2/AtbZIP53/AtbZIP44/GBF5 BS in ProDH 
+32	ttgact	W-box promoter motif
+33	ttgacc	W-box promoter motif
+34	ctaacca	AtMYB2 BS in RD22
+35	cctaaaaagg	CArG promoter motif
+36	cctttttagg	CArG promoter motif
+37	ccatttttag	AG BS in AP3
+38	cctaatttgg	CArG promoter motif
+39	ccaaattagg	CArG promoter motif
+40	ccaaatttgg	CArG promoter motif
+41	ccacgtgg	GBF1/2/3 BS in ADH1
+42	ccataaaagg	CArG promoter motif
+43	ccttttatgg	CArG promoter motif
+44	ccaaaaaagg	CArG promoter motif
+45	ccttttttgg	CArG promoter motif
+46	ccattaatgg	CArG promoter motif
+47	ccaattaagg	CArG promoter motif
+48	ccttaattgg	CArG promoter motif
+49	ccttatatgg	CArG promoter motif
+50	ccatataagg	CArG promoter motif
+51	ccataaatgg	CArG promoter motif
+52	ccatttatgg	CArG promoter motif
+53	tggccgac	CBF1 BS in cor15a
+54	ccttattagg	CArG promoter motif
+55	cctaataagg	CArG promoter motif
+56	cctttaaagg	CArG promoter motif
+57	ccaaaattgg	CArG promoter motif
+58	ccaattttgg	CArG promoter motif
+59	taccgacat	DREB1&2 BS in rd29a
+60	tacacttttgg	OBP-1-4-5 BS in GST6
+61	cctaaaatgg	CArG promoter motif
+62	ccattttagg	CArG promoter motif
+63	ccaatatagg	CArG promoter motif
+64	cctatattgg	CArG promoter motif
+65	cgtcaatgaa	JASE1 motif in OPR1
+66	ccaatttagg	CArG promoter motif
+67	cctaaattgg	CArG promoter motif
+68	ccaaataagg	CArG promoter motif
+69	ccttatttgg	CArG promoter motif
+70	cctaattagg	CArG promoter motif
+71	cctttaatgg	CArG promoter motif
+72	ccattaaagg	CArG promoter motif
+73	cctataatgg	CArG promoter motif
+74	ccattatagg	CArG promoter motif
+75	cctaatatgg	CArG promoter motif
+76	ccatattagg	CArG promoter motif
+77	ccatttttgg	AG BS in SUP
+78	ccaaaaatgg	CArG promoter motif
+79	cctataaagg	CArG promoter motif
+80	cctttatagg	CArG promoter motif
+81	ccatatttgg	CArG promoter motif
+82	ccaaatatgg	CArG promoter motif
+83	ccaattatgg	CArG promoter motif
+84	ccataattgg	CArG promoter motif
+85	ccatttaagg	CArG promoter motif
+86	ccttaaatgg	CArG promoter motif
+87	ccttttaagg	CArG promoter motif
+88	ccttaaaagg	CArG promoter motif
+89	ccattattgg	CArG promoter motif
+90	ccaataatgg	CArG promoter motif
+91	cctattatgg	CArG promoter motif
+92	ccataatagg	CArG promoter motif
+93	cctttattgg	CArG promoter motif
+94	ccaataaagg	CArG promoter motif
+95	ccaaaatagg	CArG promoter motif
+96	cctattttgg	CArG promoter motif
+97	cctatttagg	CArG promoter motif
+98	cctaaatagg	CArG promoter motif
+99	aaaaaaaatctatga	CCA1 motif2 BS in CAB1
+100	cctatatagg	CArG promoter motif
+101	ccatatatgg	CArG promoter motif
+102	ccaatattgg	CArG promoter motif
+103	ccttataagg	CArG promoter motif
+104	ccttaatagg	CArG promoter motif
+105	cctattaagg	CArG promoter motif
+106	catacgtcgtcaa	JASE2 motif in OPR1
+107	tctaacctacca	MRE motif in CHS
+108	tgtctc	ARF1 binding site motif
+109	taataatta	ATHB2 binding site motif
+110	aacaatct	CCA1 binding site motif
+111	acacacg	DPBF1&2 binding site motif
+112	acactag	DPBF1&2 binding site motif
+113	acacgtg	DPBF1&2 binding site motif
+114	aacctacc	MYB binding site promoter
+115	acctacc	MYB4 binding site motif
+116	aacaaac	MYB4 binding site motif
+117	caaca	RAV1-A binding site motif
+118	caattattg	ATHB1 binding site motif
+119	caataattg	ATHB1 binding site motif
+120	caccaaac	MYB binding site promoter
+121	accaaac	MYB4 binding site motif
+122	acacctg	DPBF1&2 binding site motif
+123	agaatattct	HSEs binding site motif
+124	aaccaaac	MYB binding site promoter
+125	taactaac	MYB3 binding site motif
+126	aactaac	MYB4 binding site motif
+127	cacctg	RAV1-B binding site motif
+128	acacgcg	DPBF1&2 binding site motif
+129	aaccaacc	MYB binding site promoter
+130	accaacc	MYB4 binding site motif
+131	ccaatg	LFY consensus binding site motif
+132	aaaaatct	CCA1 binding site motif
+133	aactacc	MYB4 binding site motif
+134	acacatg	DPBF1&2 binding site motif
+135	acacttg	DPBF1&2 binding site motif
+136	agaattttct	HSEs binding site motif
+137	agaaaattct	HSEs binding site motif
+138	aacaacc	MYB4 binding site motif
+139	ccattg	LFY consensus binding site motif
+140	ccactg	LFY consensus binding site motif
+141	ccagtg	LFY consensus binding site motif
+142	caattatta	ATHB6 binding site motif
+143	acactcg	DPBF1&2 binding site motif
+144	tgacgtgg	TGA1 binding site motif
+145	acacaag	DPBF1&2 binding site motif
+146	acacggg	DPBF1&2 binding site motif
+147	cacctaac	MYB binding site promoter
+148	acctaac	MYB4 binding site motif
+149	acaccag	DPBF1&2 binding site motif
+150	acacgag	DPBF1&2 binding site motif
+151	atccaacc	MYB1 binding site motif
+152	taatcatta	ATHB2 binding site motif
+153	ctcctacc	MYB1 binding site motif
+154	acactgg	DPBF1&2 binding site motif
+155	cacgtggc	ABFs binding site motif
+156	caccaacc	MYB binding site promoter
+157	gcgttaaacgc	VOZ binding site
+158	gcgtttaacgc	VOZ binding site
+159	atcctacc	MYB1 binding site motif
+160	agaagcttct	HSEs binding site motif
+161	caatcattg	ATHB5 binding site motif
+162	caatgattg	ATHB5 binding site motif
+163	aacctaac	MYB binding site promoter
+164	gcgtaacacgc	VOZ binding site
+165	gcgtgttacgc	VOZ binding site
+166	agaaacttct	HSEs binding site motif
+167	agaagtttct	HSEs binding site motif
+168	acacagg	DPBF1&2 binding site motif
+169	ctccaacc	MYB1 binding site motif
+170	cacctacc	MYB binding site promoter
+171	acaccgg	DPBF1&2 binding site motif
+172	tttcccgc	E2F binding site motif
+173	gcgttttacgc	VOZ binding site
+174	gcgtaaaacgc	VOZ binding site
+175	agaaggttct	HSEs binding site motif
+176	agaaccttct	HSEs binding site motif
+177	agaagattct	HSEs binding site motif
+178	agaatcttct	HSEs binding site motif
+179	agaacgttct	HSEs binding site motif
+180	agaactttct	HSEs binding site motif
+181	agaaagttct	HSEs binding site motif
+182	acacccg	DPBF1&2 binding site motif
+183	taactggtt	MYB2 binding site motif
+184	agaaatttct	HSEs binding site motif
+185	taactcgtt	MYB2 binding site motif
+186	tctcccgcc	E2F-varient binding site motif
+187	ttgccaaaaaaggaaa	AG binding site motif
+188	tttccttttttggcaa	AG binding site motif
+189	agaacattct	HSEs binding site motif
+190	agaatgttct	HSEs binding site motif
+191	gcgtctcacgc	VOZ binding site
+192	gcgtgagacgc	VOZ binding site
+193	ttgcctaaaatggaaa	AG binding site motif
+194	tttccattttaggcaa	AG binding site motif
+195	ttacctaaataggaaa	AG binding site motif
+196	tttcctatttaggtaa	AG binding site motif
+197	ttactatatttggaaa	AGL3 binding site motif
+198	tttccaaatatagtaa	AGL3 binding site motif
+199	tttcctttaaaggaaa	AG binding site motif
+200	gcgtgacacgc	VOZ binding site
+201	gcgtgtcacgc	VOZ binding site
+202	ttaccaattttggtaa	AG binding site motif
+203	ttaccaaaattggtaa	AG binding site motif
+204	tttccataaaaggaaa	AG binding site motif
+205	tttccttttatggaaa	AG binding site motif
+206	tttcctaatttggtaa	AG binding site motif
+207	ttaccaaattaggaaa	AG binding site motif
+208	tttccattattagtaa	AGL3 binding site motif
+209	ttactaataatggaaa	AGL3 binding site motif
+210	ttactaaaattggtaa	AGL3 binding site motif
+211	ttaccaattttagtaa	AGL3 binding site motif
+212	ttaccattaatggcaa	AG binding site motif
+213	ttgccattaatggtaa	AG binding site motif
+214	gcgttcaacgc	VOZ binding site
+215	gcgttgaacgc	VOZ binding site
+216	tttcctttttaggaaa	AG binding site motif
+217	tttcctaaaaaggaaa	AG binding site motif
+218	tttctaaatatagaaa	AGL3 binding site motif
+219	tttctatatttagaaa	AGL3 binding site motif
+220	ttgccattttaggaaa	AG binding site motif
+221	tttcctaaaatggcaa	AG binding site motif
+222	tttccaatattagtaa	AGL3 binding site motif
+223	ttactaatattggaaa	AGL3 binding site motif
+224	tttctatatatagaaa	AGL3 binding site motif
+225	gcgtactacgc	VOZ binding site
+226	gcgtagtacgc	VOZ binding site
+227	tttctaattatagtaa	AGL3 binding site motif
+228	ttactataattagaaa	AGL3 binding site motif
+229	ttaccataaaaggaaa	AG binding site motif
+230	tttccttttatggtaa	AG binding site motif
+231	tttccatttatggaaa	AG binding site motif
+232	tttccataaatggaaa	AG binding site motif
+233	tttccttatttggtaa	AG binding site motif
+234	ttaccaaataaggaaa	AG binding site motif
+235	tttctaataatggaaa	AGL3 binding site motif
+236	tttccattattagaaa	AGL3 binding site motif
+237	gcgtgaaacgc	VOZ binding site
+238	gcgtttcacgc	VOZ binding site
+239	tttctatatatggaaa	AGL3 binding site motif
+240	tttccatatatagaaa	AGL3 binding site motif
+241	ttaccttatttggtaa	AG binding site motif
+242	ttaccaaataaggtaa	AG binding site motif
+243	tttccattaaaggtaa	AG binding site motif
+244	ttacctttaatggaaa	AG binding site motif
+245	ttaccaaatatagtaa	AGL3 binding site motif
+246	ttactatatttggtaa	AGL3 binding site motif
+247	gcgtgtgacgc	VOZ binding site
+248	gcgtcacacgc	VOZ binding site
+249	tttccaaatttagtaa	AGL3 binding site motif
+250	ttactaaatttggaaa	AGL3 binding site motif
+251	tttccttaaaaggaaa	AG binding site motif
+252	tttccttttaaggaaa	AG binding site motif
+253	gcgttggacgc	VOZ binding site
+254	gcgtccaacgc	VOZ binding site
+255	tttctaaatatggaaa	AGL3 binding site motif
+256	tttccatatttagaaa	AGL3 binding site motif
+257	ttactaaaaatagaaa	AGL3 binding site motif
+258	tttctatttttagtaa	AGL3 binding site motif
+259	gcgtacgacgc	VOZ binding site
+260	gcgtcgtacgc	VOZ binding site
+261	tttctaaatttagtaa	AGL3 binding site motif
+262	ttactaaatttagaaa	AGL3 binding site motif
+263	tttccaaaaatggtaa	AG binding site motif
+264	ttaccatttttggaaa	AG binding site motif
+265	ttactatatatggaaa	AGL3 binding site motif
+266	tttccatatatagtaa	AGL3 binding site motif
+267	tttctataaatagaaa	AGL3 binding site motif
+268	tttctatttatagaaa	AGL3 binding site motif
+269	gcgtcaaacgc	VOZ binding site
+270	gcgtttgacgc	VOZ binding site
+271	gcgtgtaacgc	VOZ binding site
+272	gcgttacacgc	VOZ binding site
+273	ttactatttttagaaa	AGL3 binding site motif
+274	tttctaaaaatagtaa	AGL3 binding site motif
+275	tttctatttttggaaa	AGL3 binding site motif
+276	tttccaaaaatagaaa	AGL3 binding site motif
+277	tttcctaatttggaaa	AG binding site motif
+278	tttccaaattaggaaa	AG binding site motif
+279	ttaccaaaaaaggaaa	AG binding site motif
+280	tttccttttttggtaa	AG binding site motif
+281	tttccaaatttggaaa	AG binding site motif
+282	ttactattaatagaaa	AGL3 binding site motif
+283	tttctattaatagtaa	AGL3 binding site motif
+284	gcgttagacgc	VOZ binding site
+285	gcgtctaacgc	VOZ binding site
+286	gcgtggcacgc	VOZ binding site
+287	gcgtgccacgc	VOZ binding site
+288	gcgtgatacgc	VOZ binding site
+289	gcgtatcacgc	VOZ binding site
+290	ttaccaatttaggaaa	AG binding site motif
+291	tttcctaaattggtaa	AG binding site motif
+292	tttccaaaattagaaa	AGL3 binding site motif
+293	tttctaattttggaaa	AGL3 binding site motif
+294	gcgtagaacgc	VOZ binding site
+295	gcgttctacgc	VOZ binding site
+296	ttaccatatttggaaa	AG binding site motif
+297	tttccaaatatggtaa	AG binding site motif
+298	ttaccataaatagtaa	AGL3 binding site motif
+299	ttactatttatggtaa	AGL3 binding site motif
+300	ttactaaatttggtaa	AGL3 binding site motif
+301	ttaccaaatttagtaa	AGL3 binding site motif
+302	tttccatttttggtaa	AG binding site motif
+303	ttaccaaaaatggaaa	AG binding site motif
+304	tttctataattagaaa	AGL3 binding site motif
+305	tttctaattatagaaa	AGL3 binding site motif
+306	ttaccaattaaggtaa	AG binding site motif
+307	ttaccttaattggtaa	AG binding site motif
+308	ttacctaaaaaggaaa	AG binding site motif
+309	tttcctttttaggtaa	AG binding site motif
+310	gcgtaccacgc	VOZ binding site
+311	gcgtggtacgc	VOZ binding site
+312	gcgtacaacgc	VOZ binding site
+313	gcgttgtacgc	VOZ binding site
+314	ttactaaatatggtaa	AGL3 binding site motif
+315	ttaccatatttagtaa	AGL3 binding site motif
+316	tttctaaaattagtaa	AGL3 binding site motif
+317	ttactaattttagaaa	AGL3 binding site motif
+318	tttccatttttagtaa	AGL3 binding site motif
+319	tttcctttaatggcaa	AG binding site motif
+320	ttgccattaaaggaaa	AG binding site motif
+321	tttccatttttagaaa	AGL3 binding site motif
+322	tttctaaaaatggaaa	AGL3 binding site motif
+323	ttacctatattggcaa	AG binding site motif
+324	ttgccaatataggtaa	AG binding site motif
+325	gcgttccacgc	VOZ binding site
+326	gcgtggaacgc	VOZ binding site
+327	tttccaaaaaaggaaa	AG binding site motif
+328	tttccttttttggaaa	AG binding site motif
+329	ttgccaaatatggtaa	AG binding site motif
+330	ttaccatatttggcaa	AG binding site motif
+331	ttaccaaaaatagaaa	AGL3 binding site motif
+332	tttctatttttggtaa	AGL3 binding site motif
+333	tttctaataatagaaa	AGL3 binding site motif
+334	tttctattattagaaa	AGL3 binding site motif
+335	ttactaattatagaaa	AGL3 binding site motif
+336	tttctataattagtaa	AGL3 binding site motif
+337	ttactaaatttagtaa	AGL3 binding site motif
+338	gcgtaagacgc	VOZ binding site
+339	gcgtcttacgc	VOZ binding site
+340	gcgttgcacgc	VOZ binding site
+341	gcgtgcaacgc	VOZ binding site
+342	tttccaataatagtaa	AGL3 binding site motif
+343	ttactattattggaaa	AGL3 binding site motif
+344	ttgccatatttggaaa	AG binding site motif
+345	tttccaaatatggcaa	AG binding site motif
+346	gcgtaatacgc	VOZ binding site
+347	gcgtattacgc	VOZ binding site
+348	ttaccaaatatggtaa	AG binding site motif
+349	ttaccatatttggtaa	AG binding site motif
+350	gcgtctgacgc	VOZ binding site
+351	gcgtcagacgc	VOZ binding site
+352	tttcctttttaggcaa	AG binding site motif
+353	ttgcctaaaaaggaaa	AG binding site motif
+354	tttctatatatagtaa	AGL3 binding site motif
+355	ttactatatatagaaa	AGL3 binding site motif
+356	tttccttatttggaaa	AG binding site motif
+357	tttccaaataaggaaa	AG binding site motif
+358	ttaccaattttagaaa	AGL3 binding site motif
+359	tttctaaaattggtaa	AGL3 binding site motif
+360	ttgccatttttggtaa	AG binding site motif
+361	ttaccaaaaatggcaa	AG binding site motif
+362	gcgttcgacgc	VOZ binding site
+363	gcgtcgaacgc	VOZ binding site
+364	ttgcctattttggcaa	AG binding site motif
+365	ttgccaaaataggcaa	AG binding site motif
+366	ttaccaatattagtaa	AGL3 binding site motif
+367	ttactaatattggtaa	AGL3 binding site motif
+368	tttctatttttagaaa	AGL3 binding site motif
+369	tttctaaaaatagaaa	AGL3 binding site motif
+370	ttacctttttaggaaa	AG binding site motif
+371	tttcctaaaaaggtaa	AG binding site motif
+372	ttgccttatatggaaa	AG binding site motif
+373	tttccatataaggcaa	AG binding site motif
+374	cacgtgtc	ABRE-like binding site motif
+375	ggttaa	BoxII promoter motif
+376	tgatag	GATA promoter motif [LRE]
+377	tgataa	GATA promoter motif [LRE]
+378	agataa	GATA promoter motif [LRE]
+379	agatag	GATA promoter motif [LRE]
+380	cacgtg	G-box promoter motif [LRE]
+381	actttg	T-box promoter motif
+382	agccac	SORLIP1
+383	gataag	Ibox promoter motif
+384	aaaccctaa	TELO-box promoter motif
+385	gggcc	SORLIP2
+386	tacgtgtc	ABRE-like binding site motif
+387	cacgtgta	ABRE-like binding site motif
+388	ccgtcg	Hexamer promoter motif
+389	atacgtgt	Z-box promoter motif
+390	aaccgacca	DRE-like promoter motif
+391	gaccgactt	DRE-like promoter motif
+392	taccgacca	DRE-like promoter motif
+393	gccgcc	GCC-box promoter motif
+394	agatcgacg	Nonamer promoter motif
+395	tacgtgta	ABRE-like binding site motif
+396	gacgtgta	ABRE-like binding site motif
+397	taaatgca	L1-box promoter motif
+398	catgcatg	RY-repeat promoter motif
+399	gacgtggc	ABRE-like binding site motif
+400	gagtgag	SORLIP5
+401	agccgacca	DRE-like promoter motif
+402	tacgtggc	ABRE binding site motif
+403	aaccgacct	DRE-like promoter motif
+404	ttgcatgact	SORLREP5
+405	gaccgacat	DRE-like promoter motif
+406	accgaca	LTRE promoter motif
+407	agccgacaa	DRE-like promoter motif
+408	cacgtgga	ABRE-like binding site motif
+409	taaatgta	L1-box promoter motif
+410	tgtatatat	SORLREP3
+411	aaccgacat	DRE-like promoter motif
+412	aaaatatct	EveningElement promoter motif
+413	tacgtacaa	SBP-box promoter motif
+414	gtgatcac	PI promoter motif
+415	tgccgacaa	DRE-like promoter motif
+416	tacgtgga	ABRE-like binding site motif
+417	gacgtgga	ABRE-like binding site motif
+418	taccgacta	DRE-like promoter motif
+419	ataaaacgt	SORLREP2
+420	gaccgacca	DRE-like promoter motif
+421	aaccgacga	DRE-like promoter motif
+422	ctcctaatt	SORLREP4
+423	agccgacat	DRE-like promoter motif
+424	taccgacaa	DRE-like promoter motif
+425	gacgtgtc	ABRE-like binding site motif
+426	agccgacga	DRE-like promoter motif
+427	tgccgacta	DRE-like promoter motif
+428	taccgactt	DRE-like promoter motif
+429	ggccgacct	DRE-like promoter motif
+430	ttttactagt	SORLREP1
+431	aaccgacta	DRE-like promoter motif
+432	agccgactt	DRE-like promoter motif
+433	tgccgacat	DRE-like promoter motif
+434	ttatactagt	SORLREP1
+435	ggccgacaa	DRE-like promoter motif
+436	tgccgacca	DRE-like promoter motif
+437	tgccgactt	DRE-like promoter motif
+438	aaccgactt	DRE-like promoter motif
+439	gaccgacgt	DRE-like promoter motif
+440	cgcggatc	octamer promoter motif
+441	gaccgacaa	DRE-like promoter motif
+442	taccgacga	DRE-like promoter motif
+443	aaccgacaa	DRE-like promoter motif
+444	ctcaagtga	SORLIP3
+445	gtatgatgg	SORLIP4
+446	ttcgtacaa	SBP-box promoter motif
+447	aaccgacgt	DRE-like promoter motif
+448	gaccgacga	DRE-like promoter motif
+449	tgccgacga	DRE-like promoter motif
+450	tccgtacaa	SBP-box promoter motif
+451	gaccgacct	DRE-like promoter motif
+452	taccgacct	DRE-like promoter motif
+453	tctacgtcac	LS5 promoter element
+454	ggccgacat	DRE-like promoter motif
+455	aggggcataatggtaa	TEF-box promoter motif
+456	tgccgacgt	DRE-like promoter motif
+457	gaccgacta	DRE-like promoter motif
+458	tgcgtacaa	SBP-box promoter motif
+459	taccgacgt	DRE-like promoter motif
+460	acgtcataga	LS7 promoter element
+461	ggccgactt	DRE-like promoter motif
+462	agccgacgt	DRE-like promoter motif
+463	ggccgacga	DRE-like promoter motif
+464	agccgacta	DRE-like promoter motif
+465	taagagccgcc	ERE promoter motif
+466	ggccgacca	DRE-like promoter motif
+467	agccgacct	DRE-like promoter motif
+468	ggccgacta	DRE-like promoter motif
+469	tgccgacct	DRE-like promoter motif
+470	ggccgacgt	DRE-like promoter motif
+471	gacacgtaga	ACE promoter motif
+472	ACC[AT]A[AC][TC]	myb
+473	[TC]ACC[AT]A[AC][TC]	myb46
+474	[TA][ATCG]{2}[CT][TCG]T[ACTG]{7}A[AC]G[ATCG][ACT][AT]	nac
+475	CT[TC][ATCG]AA[AC]GC[ATCG][AT]	nac2
+476	ACCTACC	myb58_63
+477	ACCAACC	myb58_63_2
+478	ACCTAAC	myb58_63_3
+479	CACGTGGC	ABFs binding site motif
+480	[CT]ACGTGGC	ABRE binding site motif
+481	[CGT]ACGTG[GT][AC]	ABRE-like binding site motif
+482	GACACGTAGA	ACE promoter motif
+483	TT[AGT]CC[AT][AT][AT][AT][AT][AT]GG[ACT]	AG binding site motif
+484	CCATTTTTAGT	AG BS in AP3
+485	CCATTTTTGG	AG BS in SUP
+486	.TT[AGT]CC[AT][AT][AT][AT]..GG[AT]AA.	AGL1 binding site motif
+487	..[AT].CCA[AT][AT][AT][AT]T[AG]G[AT][AT]A.	AGL2 binding site motif
+488	TT[AT]C[CT]A[AT][AT][AT][AT]T[AG]G[AT]AA	AGL3 binding site motif
+489	CCATTTTTAG	AP1 BS in AP3
+490	CCATTTTTGG	AP1 BS in SUP
+491	TGTCTC	ARF binding site motif
+492	TGTCTC.......GAGACA	ARF1 binding site motif
+493	TGTCTC........GAGACA	ARF1 binding site motif
+494	[AT]GAC[GC]CTT..........AAG[AT][GC][AT][GC][GC]	Nitrate responsice cis-element
+495	TGTC[ATCG]C	ARF binding site motif(Lee et al)
+496	CAAT[AT]ATTG	ATHB1 binding site motif
+497	CAAT[CG]ATTG	ATHB2 binding site motif
+498	CAAT.ATTG	ATHB5 binding site motif
+499	CAATTATTA	ATHB6 binding site motif
+500	CTAACCA	AtMYB2 BS in RD22
+501	CACATG	AtMYC2 BS in RD22
+502	GGTTAA	Box II promoter motif
+503	CC[AT][AT][AT][AT][AT][AT]GG	CArG promoter motif
+504	GTTTACATAAATGGAAAA	CArG1 motif in AP3
+505	CTTACCTTTCATGGATTA	CArG2 motif in AP3
+506	CTTTCCATTTTTAGTAAC	CArG3 motif in AP3
+507	TGGCCGAC	CBF1 BS in cor15a
+508	CCACGTGG	CBF2 binding site motif
+509	AA[AC]AATCT	CCA1 binding site motif
+510	AAACAATCTA	CCA1 motif1 BS in CAB1
+511	AAAAAAAATCTATGA	CCA1 motif2 BS in CAB1
+512	ACAC..G	DPBF1&2 binding site motif
+513	TACCGACAT	DRE promoter motif
+514	TACCGACAT	DREB1&2 BS in rd29a
+515	[AGT][AG]CCGAC.[AT]	DRE-like promoter motif
+516	TTTCCCGC	E2F binding site motif
+517	TTTCCCGC	E2F/DP BS in AtCDC6
+518	TCTCCCGCC	E2F-varient binding site motif
+519	TTCAAGGGGGCATGTATCTTGAA	EIL1 BS in ERF1
+520	TTCAAGGGGGCATGTATCTTGAA	EIL2 BS in ERF1
+521	TTCAAGGGGGCATGTATCTTGAA	EIL3 BS in ERF1
+522	GGATTCAAGGGGGCATGTATCTTGAATCC	EIN3 BS in ERF1
+523	TAAGAGCCGCC	ERE promoter motif
+524	GCCGCC	ERF1 BS in AtCHI-B
+525	AAAATATCT	EveningElement promoter motif
+526	[AT]GATA[GA]	GATA promoter motif
+527	CCACGTGG	GBF1/2/3 BS in ADH1
+528	CACGTG	G-box promoter motif
+529	GCCGCC	GCC-box promoter motif
+530	TGTGTGGTTAATATG	GT promoter motif
+531	CCGTCG	Hexamer promoter motif
+532	AGAA..TTCT	HSEs binding site motif
+533	GATAAG	Ibox promoter motif
+534	CGTCAATGAA	JASE1 motif in OPR1
+535	CATACGTCGTCAA	JASE2 motif in OPR2
+536	TAAATG[CT]A	L1-box promoter motif
+537	ACGTCATAGA	LS5 promoter motif
+538	TCTACGTCAC	LS7 promoter motif
+539	ACCGACA	LTRE promoter motif
+540	TCTAACCTACCA	MRE motif in CHS
+541	[AC]ACC[AT]A[AC]C	MYB binding site promoter
+542	[AC]TCC[AT]ACC	MYB1 binding site motif
+543	TAACT[GC]GTT	MYB2 binding site motif
+544	TAACTAAC	MYB3 binding site motif
+545	A[AC]C[AT]A[AC]C	MYB4 binding site motif
+546	AGATCGACG	Nonamer promoter motif
+547	ATCTTATGTCATTGATGACGACCTCC	OBF4,5 BS in GST6
+548	TACACTTTTGG	OBP-1,4,5 BS in GST6
+549	TGACG[CT]AAG[CG][AG][AC]T[GT]ACG[CT][AC][AC]	OCS promoter motif
+550	CGCGGATC	octamer promoter motif
+551	GTGATCAC	PI promoter motif
+552	TTGGTTTTGATCAAAACCAA	PII promoter motif
+553	TAATTGACTCAATTA	PRHA BS in PAL1
+554	CAACA	RAV1-A binding site motif
+555	CACCTG	RAV1-B binding site motif
+556	CATGCATG	RY-repeat promoter motif
+557	T.CGTACAA	SBP-box promoter motif
+558	ACTTTG	T-box promoter motif
+559	AGGGGCATAATGGTAA	TEF-box promoter motif
+560	AAACCCTAA	TELO-box promoter motif
+561	TGACGTGG	TGA1 binding site motif
+562	TTGAC	W-box promoter motif
+563	ATACGTGT	Z-box promoter motif
+564	AAAACAGAATAGGAAA	AG BS in SPL/NOZ
+565	AAATTAAA	Bellringer/replumless/pennywise BS1 IN AG
+566	AAATTAGT	Bellringer/replumless/pennywise BS2 IN AG
+567	ACTAATTT	Bellringer/replumless/pennywise BS3 IN AG
+568	CCAATTTAATGG	AGL15 BS in AtGA2ox6
+569	ACTCAT	ATB2/AtbZIP53/AtbZIP44/GBF5 BS in ProDH
+570	CTTAAACCCTAGGGGTAAT	LFY BS in AP3
+571	TT[AT]TACTAGT	SORLREP1
+572	ATAAAACGT	SORLREP2
+573	TGTATATAT	SORLREP3
+574	CTCCTAATT	SORLREP4
+575	TTGCATGACT	SORLREP5
+576	AGCCAC	SORLIP1
+577	GGGCC	SORLIP2
+578	CTCAAGTGA	SORLIP3
+579	GTATGATGG	SORLIP4
+580	GAGTGAG	SORLIP5
+581	ACGT	PLACE
+582	ACGTG	PLACE
+583	ACGTG[GT]C	PLACE
+584	ACGTGTC	PLACE
+585	CAAAACGC	PLACE
+586	CCACGTCA	PLACE
+587	CCGAC	PLACE
+588	C.GTT[AG]	PLACE
+589	GCCAC	PLACE
+590	GGGCC	PLACE
+591	[AG]CCGAC	PLACE
+592	TGACGTGG	PLACE
+593	TGGGC[CT]	PLACE
+594	TTAATGG	PLACE
+595	TTGACC	PLACE
+596	[CT]AAC[TG]G	PLACE
+597	GGTACGTGGCG	Motif I
+598	CCGCCGCGCT	Motif IIb
+599	TACGTGGCGCCACCGCCGCGCCT	Motifs I & IIa
+600	CGCGCCGG	Plant AP-2-like
+601	CGACCAGG	Plant AP-2-like
+602	TGCAAATCT	AAT-box
+603	CACGTG	G-box
+604	TATAAAT	TATA-box
+605	ACACGTGGC	ABRE
+606	CCACGTAA	G-box
+607	ACACGTGT	G-box
+608	ACACGTGT	G-box
+609	TGACGTGG	G-box
+610	ACACGTGGC	G-box
+611	CACGTGG	G-box
+612	ATTATA	TATA-box
+613	TATATA	TATA-box
+614	ATATAT	TATA-box
+615	CACTATATAAAG	TATA-box
+616	TGGAGGCTGGTTGGAGA	Box-2
+617	CCAAT	CAAT-box
+618	AAACCAATT	ELI-box4
+619	TAAACGTG	G-box
+620	TAACACGTAG	G-box
+621	AAACAGA	GARE-motif
+622	TCTGTTG	GARE-motif
+623	AAAAAATTTC	HSE
+624	ATTCCTTTCTGAAACGTTC	HSE
+625	AGAAAATTCG	HSE
+626	TAAAAACTTTAGAAACTCT	HSE
+627	GAAGAAAATGTTTTAAAAACT	HSE
+628	TATAAAT	TATA-box
+629	ATATAAT	TATA-box
+630	ATATAA	TATA-box
+631	CAGAAAAGGA	TCA-element
+632	TCAGAAGAGG	TCA-element
+633	GAGAAGAATA	TCA-element
+634	AACGAC	TGA-2
+635	TCATTACGAA	WUN-motif
+636	AAATTTCCT	WUN-motif
+637	CAAAT	CAAT-box
+638	CACGTG	G-box
+639	TATAAAT	TATA-box
+640	ACGTGGC	ABRE
+641	TACGGTC	ABRE
+642	TACGTGTC	ABRE
+643	CACGTG	ABRE
+644	TACGTG	ABRE
+645	GCTTACCTACCA	AC-I
+646	TCAACCAACTCC	AC-II
+647	AATCACAACCATA	ACA-motif
+648	AGAAACAT	AE-box
+649	AGAAACAA	AE-box
+650	AGAAACTT	AE-box
+651	GCCAATCC	ATC-motif
+652	AGCTATCCA	ATC-motif
+653	AATCTAATCT	ATCT-motif
+654	GTCCATCTAACCTACCAC	Box I
+655	ACATAATAGCCACATATT	Box II
+656	ACACGTAGA	Box II
+657	CTGACGTCAG	C-box
+658	TATACTACCGACATGAGTTCCAAAAAGC	C-repeat/DRE
+659	TGGCCGAC	C-repeat/DRE
+660	GATCA.T[AT].A[TC][GT][GA]CCGAC[CA]T[GC].[TG]TT[TC][TC]	C-repeat/DRE
+661	CCAAT	CAAT-box
+662	GGCAAT	CAAT-box
+663	CAACCAACTCC	CAAT-box
+664	CTCCAATAG	CAAT-box
+665	CCCAATTT	CAAT-box
+666	GAAAGGCAGAC	CAG-motif
+667	GCCACT	CAT-box
+668	CCGTCC	CCGTCC-box
+669	ACAGAGGTGACGTGGCATCA	CellCycle-1b
+670	ATCTTATGTCATTGATGACGACCTCC	DRE
+671	TCATATCTTCTTCAG	Sbp-CMA1a
+672	CTTTATCTCTTCCA	Sbp-CMA1c
+673	CCGCGT	CM2 motif
+674	CACGTGGG	AtREG464
+675	CAACGGTC	AtREG553
+676	TGACG	TGA core
+677	[TGC]G[AC]CC[CT][CT]T..........AAG[AG]G[CT][CT]	NRE element 10N
+678	[TGC]G[AC]CC[CT][CT]T.........AAG[AG]G[CT][CT]	NRE element 9N
+679	CTTG.....CA[AC]G	Mitochondrial dysfunction motif
+680	TAACGGC	ACG-Box
+681	CACGTT	T/G-Box
+682	CAATTG	E-Box

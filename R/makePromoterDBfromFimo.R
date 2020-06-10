@@ -25,10 +25,10 @@
 #' @examples
 #' 
 #' # Read a sample fimo file. The data is downloaded from the Arabidopsis Cistrome database.
-#' fimo.dir = system.file("extdata", "fimo_cistrome_jaspar.tsv", package="TFbindR", mustWork = TRUE)
+#' fimo.dir = base::system.file("extdata", "cistrome.fimo.txt", package="TFbindR", mustWork = TRUE)
 #' 
 #' # Read a sample fasta file. 
-#' promoter.dir = system.file("extdata","TAIR10_upstream_1000_translation_start_20101028.fa",package="TFbindR")
+#' promoter.dir = base::system.file("extdata","TAIR10_upstream_1000_translation_start_20101028.fa",package="TFbindR")
 #' 
 #' # Specify the output directory.
 #' output.dir="."

@@ -22,11 +22,11 @@
 #' @examples
 #' 
 #' # Read a file of sample sequence motifs.
-#' motifs.dir = system.file("extdata", "AGRIS_PLACE_motifs_short_mb2.txt", package="TFbindR", mustWork = TRUE)
+#' motifs.dir = system.file("extdata", "REcomplete.txt", package="TFbindR", mustWork = TRUE)
 #' Motifs=read.delim(file = motifs.dir ,header=TRUE, sep="\t", as.is=T)
 #' 
 #' # Remove duplicated motifs.
-#' Motifs=Motifs[which(!duplicated(Motifs$Motif)),]
+#' Motifs=Motifs[which(!duplicated(Motifs$Motifs)),]
 #' 
 #' # Read a sample fasta file. 
 #' promoter.dir = system.file("extdata","TAIR10_upstream_1000_translation_start_20101028.fa",package="TFbindR")
