@@ -43,7 +43,7 @@ Give the path for the result. Use the suffix to your file name .fimo.db.rda
 ```makePromoterDBfromFimo(fimo = fimo.dir, promoter.fasta=promoter.dir, promoterDB=file.path(output.dir))```
 
 
-**For the Regular Expression version**
+**For the Regular Expression (RE) version**
 
 Here again, you can use the *Arabidopsis* collection of motifs defined with regular expression patters. The collection is based on [AtcisDB - Arabidopsis cis-regulatory element database](https://agris-knowledgebase.org) and secondary cell wall specific binding elements from literature. 
 
@@ -61,9 +61,11 @@ The result will be saved in the ```TAIR10_500bp_upstream.RE.db.rda``` object con
 
 **Enrichment**
 
-From here, you can run the enrichment function based on the RE.  Here, you will use your genes of interest. 
+From here, you can run the enrichment function. Example bellow for the RE version.  Here, you will use your genes of interest. 
 
+```
 genes=read.table("path_to_your_genes/file_name")
 enrichment=computeEnrichments(as.character(genes), "TAIR10_500bp_upstream.fimo.db.rda")
+```
 
 
