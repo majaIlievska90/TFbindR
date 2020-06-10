@@ -61,7 +61,7 @@ The result will be saved in the ```TAIR10_500bp_upstream.RE.db.rda``` object con
 
 **Enrichment**
 
-From here, you can run the enrichment function. Example bellow for the RE version.  Here, you will use a text file with the gene IDs separated by new line, without header. 
+From here, you can run the enrichment function. Example bellow for the RE version.  Here, you will use a text file with the gene IDs separated by new line, without header. An example file is given in the inst/extdata/test_geneSet.txt.
 
 ```
 genes=read.table("path_to_your_file/file_name")
