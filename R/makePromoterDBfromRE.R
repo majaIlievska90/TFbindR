@@ -23,10 +23,10 @@
 #' 
 #' # Read a file of sample sequence motifs.
 #' motifs.dir = system.file("extdata", "REcomplete.txt", package="TFbindR", mustWork = TRUE)
-#' Motifs=read.delim(file = motifs.dir ,header=TRUE, sep="\t", as.is=T)
+#' Motif.df=read.delim(file = motifs.dir ,header=TRUE, sep="\t", as.is=T)
 #' 
 #' # Remove duplicated motifs.
-#' Motifs=Motifs[which(!duplicated(Motifs$Motifs)),]
+#' Motif.df=Motif.df[which(!duplicated(Motif.df$Motifs)),]
 #' 
 #' # Read a sample fasta file. 
 #' promoter.dir = system.file("extdata","TAIR10_upstream_1000_translation_start_20101028.fa",package="TFbindR")
@@ -35,10 +35,10 @@
 #' output.dir="."
 #' 
 #' # Run the function to create the DB and save it into R file type .rda which is automatically compressed
-#' makePromoterDBfromRE(Motifs = Motifs$Motif,promoter.fasta = promoter.dir, promoterDB=file.path(output.dir,"TAIR10_500bp_upstream.RE.db.rda"))
+#' makePromoterDBfromRE(Motifs = Motif.df,promoter.fasta = promoter.dir, promoterDB=file.path(output.dir,"TAIR10_500bp_upstream.RE.db.rda"))
 #' 
 #' @export makePromoterDBfromRE
-makePromoterDBfromRE <- function(Motifs, promoter.fasta, promoterDB = "promoter.DB") {
+makePromoterDBfromRE <- function(Motif.df, promoter.fasta, promoterDB = "promoter.DB") {
 	# Counts the occurence of motifs, as defined by regular expressions, in promoter regions. 
 	
 	# Args: 
@@ -49,6 +49,7 @@ makePromoterDBfromRE <- function(Motifs, promoter.fasta, promoterDB = "promoter.
 	# Returns: 
 	#	A list of 3 elements, holding the count matrices for plus, minus and both strands together correspondingly. 
     library(seqinr)
+	Motifs=as.character(Motif.df$Motifs)
     Nmotif = length(Motifs)
     # Read the forward promoter sequences.
     Pr = read.fasta(promoter.fasta, seqtype = "DNA", as.string = TRUE)
@@ -62,8 +63,8 @@ makePromoterDBfromRE <- function(Motifs, promoter.fasta, promoterDB = "promoter.
     names(Pr2) = names(Pr)
     
     # Create the plus and minus strand matrices, populate the elements with the number of times the motif is found in the promoter sequence.  
-    MinusStr = matrix(0, length(Allgenes), Nmotif, dimnames = list(Allgenes, Motifs))
-    PlusStr = matrix(0, length(Allgenes), Nmotif, dimnames = list(Allgenes, Motifs))
+    MinusStr = matrix(0, length(Allgenes), Nmotif, dimnames = list(Allgenes, paste(Motifs, Motif.df$names,sep="_")))
+    PlusStr = matrix(0, length(Allgenes), Nmotif, dimnames = list(Allgenes, paste(Motifs, Motif.df$names,sep="_")))
     for (i in 1:Nmotif) {
         t1 = gregexpr(Motifs[i], Pr, ignore.case = T)
         MinusStr[, i] = sapply(t1, function(x) {
@@ -86,7 +87,7 @@ makePromoterDBfromRE <- function(Motifs, promoter.fasta, promoterDB = "promoter.
     # Sum the minus and plus into the Both strands count matrix.
     Both = MinusStr + PlusStr
     rownames(Both) = Allgenes
-    colnames(Both) = Motifs
+    colnames(Both) = paste(Motifs, Motif.df$names,sep="_")
     MinusStr = MinusStr[, which(colSums(MinusStr > 0) > 0)]
     PlusStr = PlusStr[, which(colSums(PlusStr > 0) > 0)]
     Both = Both[, which(colSums(Both > 0) > 0)]
