@@ -35,7 +35,7 @@
 #' output.dir="."
 #' 
 #' # Run the function to create the DB and save it into R file type .rda which is automatically compressed
-#' makePromoterDBfromRE(Motifs = Motif.df,promoter.fasta = promoter.dir, promoterDB=file.path(output.dir,"TAIR10_500bp_upstream.RE.db.rda"))
+#' makePromoterDBfromRE(Motif.df = Motif.df, promoter.fasta = promoter.dir, promoterDB=file.path(output.dir,"TAIR10_500bp_upstream.RE.db.rda"))
 #' 
 #' @export makePromoterDBfromRE
 makePromoterDBfromRE <- function(Motif.df, promoter.fasta, promoterDB = "promoter.DB") {
