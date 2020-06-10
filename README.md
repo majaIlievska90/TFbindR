@@ -30,7 +30,7 @@ If working with plant genome sequences, you can use our fimo file which is based
 
 
 2. Run the ```makePromoterDBfromFimo``` function which requires the following input arguments: **fimo** - the output of the fimo tool, **promoter.fasta** - fasta file of the promoter sequences and  **promoterDB** - the path to the directory where you want the output to be saved.  With our FIMO file, 
-``` fimo.dir =system.file("extdata", "cistrome.fimo.txt", package="TFbindR", mustWork = TRUE) ``` 
+``` fimo.dir =system.file("extdata", "JASPAR_cistrome.fimo.txt", package="TFbindR", mustWork = TRUE) ``` 
 If using your own FIMO file, replace the previous line with a simple line providing the path to your file.
 ```fimo.dir="path_to_your_FIMO_file/your_FIMO_file_name" ```
 Next, provide the path to the FASTA file. If using the *Arabidopsis* promoter sequences, 1000 bp upstream of the translation start site, run this line
